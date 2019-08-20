@@ -1,0 +1,23 @@
+{
+  "name": "Mobil_Web_new",
+  "version": "1.0.0",
+  "description": "Zion-App",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZionHJS/Mobile_App_NeW.git"
+  },
+  "keywords": [],
+  "author": "Zion-Hugn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZionHJS/Mobile_App_NeW/issues"
+  },
+  "homepage": "https://github.com/ZionHJS/Mobile_App_NeW#readme"
+}
