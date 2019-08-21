@@ -47,3 +47,10 @@ chrome可以进行远程链接调试
 第二步:点击菜单栏的更多工具按钮
 第三步:选择远程device功能
 第四部:选择我门的手机设备，然后进行点inspect按钮
+
+7.安装gulp的相关自动化流程工具
+-在package.json文件下添加”build”:”gulp dist”
+-在项目根目录下输入npm i 就可以直接安装package.json里面所有的dependencies和devDependencies
+-然后在项目根目录下输入$npm run build (这相当于run了gulp dist)
+
+直接下载老马的 gulpfile.js 和 package.json文件就可
