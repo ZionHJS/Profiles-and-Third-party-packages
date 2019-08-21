@@ -11,8 +11,8 @@ sass.compiler = require('node-sass');
 gulp.task('sass', function () {
     return gulp.src('./src/css/sass/**/*.scss')  //gulp.src 让gulp去拿到原始的文件
         //把scss原始文件交给gulp-sass做编译转换成css文件
-        .pipe(sass({outputStyle:'expanded'}).on('error', function(){
-            console.log('sass is error...');
+        .pipe(sass({outputStyle:'expanded'}).on('error', function(e){
+            console.log('sass is error...',e);
         }))
         .pipe(gulp.dest('./src/css'));  //把编译好的css输出到该文件夹下
 });
